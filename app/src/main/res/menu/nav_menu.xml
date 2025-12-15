@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
 
     <item
         android:id="@+id/nav_screen1"
-        android:title="Screen 1" />
+        android:title="Bio" />
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
     <item
         android:id="@+id/nav_screen2"
-        android:title="Screen 2" />
+        android:title="MadLib" />
     <item
         android:id="@+id/nav_screen3"
-        android:title="Screen 3" />
+        android:title="SciFi Name" />
     <item
         android:id="@+id/nav_screen4"
-        android:title="Screen 4" />
+        android:title="Number Guesser" />
+    <item
+        android:id="@+id/nav_credits"
+        android:title="Credits" />
+
 
 </menu>

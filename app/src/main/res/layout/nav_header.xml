@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
-    android:background="?attr/colorPrimary"
+    android:layout_height="200dp"
+    android:background="#373737"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
@@ -11,17 +11,17 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@drawable/ic_profile_resized" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
-        android:text="Android Studio" />
+        android:text="Ezra Schaefer" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="android.studio@android.com" />
+        android:text="admin@ezraschaefer.com" />
 
 </LinearLayout>
